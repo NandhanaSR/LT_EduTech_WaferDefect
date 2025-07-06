@@ -14,19 +14,31 @@ The CNN model was able to accurately classify wafer defects, with a steadily imp
 4. METRICS OF THE PROJECT
 
 Model accuracy after training for 10 epochs:
+
 Training Accuracy: ~0.98
+
 Validation Accuracy: ~0.95
+
 Loss Curves: Showed proper convergence with decreasing loss and increasing accuracy across epochs
 
 
+
 Additional metrics calculated:
+
 Confusion Matrix (per class breakdown)
+
 F1 Score
+
 Precision
+
 Recall
 
+
 📁 Dataset Source:
+
 WM811k Wafer Map Dataset from Kaggle
+
 Used the image-based .zip version instead of the provided .pkl file for clarity and ease of processing.
+
 🔗 https://www.kaggle.com/datasets/paulbassaler/defect-detection-in-wafer-bin-maps
 
