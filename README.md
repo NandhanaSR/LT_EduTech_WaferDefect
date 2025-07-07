@@ -5,7 +5,7 @@ The aim of this project is to detect semiconductor wafer defects using Convoluti
 
 2. UNIQUENESS/DIFFERENTIATOR TRIED OUT IN THE PROJECT
 
-Unlike traditional classification models, this project implements a CNN built using Keras to process wafer map images directly. The images are processed through multiple convolution and pooling layers to learn spatial features effectively. A custom train-validation split was created using actual defect image folders.
+This project implements a CNN built using Keras to process wafer map images directly. The images are processed through multiple convolution and pooling layers to learn spatial features effectively. A custom train-validation split was created using actual defect image folders.
 
 3. INFERENCE
 
@@ -15,23 +15,23 @@ The CNN model was able to accurately classify wafer defects, with a steadily imp
 
 Model accuracy after training for 10 epochs:
 
-Training Accuracy: ~0.98
+* Training Accuracy: ~0.98
 
-Validation Accuracy: ~0.95
+* Validation Accuracy: ~0.95
 
-Loss Curves: Showed proper convergence with decreasing loss and increasing accuracy across epochs
+* Loss Curves: Showed proper convergence with decreasing loss and increasing accuracy across epochs
 
 
 
 Additional metrics calculated:
 
-Confusion Matrix (per class breakdown)
+* Confusion Matrix (per class breakdown)
 
-F1 Score
+* F1 Score
 
-Precision
+* Precision
 
-Recall
+* Recall
 
 
 📁 Dataset Source:
